@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka
+server:
+  port: 8761
+eureka:
+  client:
+    fetch-registry: false #不要自动获取注册信息(因为本模块就是注册中心)
+    register-with-eureka: false #不要注册到其他的 eureka,同上
